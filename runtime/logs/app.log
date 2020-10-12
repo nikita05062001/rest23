@@ -1,0 +1,714 @@
+2020-10-12 09:50:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/index in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#2 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-10-12 09:50:06 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'lab4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://lab4/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => 'c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\ext;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\wget\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\database\\MariaDB-10.3\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'lab4'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4/web/index.php'
+    'REMOTE_PORT' => '60071'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602485406.131
+    'REQUEST_TIME' => 1602485406
+    'argv' => []
+    'argc' => 0
+]
+2020-10-12 09:50:51 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/index in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#2 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-10-12 09:50:51 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'lab4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://lab4/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => 'c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\ext;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\wget\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\database\\MariaDB-10.3\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'lab4'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4/web/index.php'
+    'REMOTE_PORT' => '60075'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602485451.588
+    'REQUEST_TIME' => 1602485451
+    'argv' => []
+    'argc' => 0
+]
+2020-10-12 09:56:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/index in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#2 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-10-12 09:56:38 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'lab4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://lab4/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => 'c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\ext;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\wget\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\database\\MariaDB-10.3\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'lab4'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4/web/index.php'
+    'REMOTE_PORT' => '60158'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602485797.853
+    'REQUEST_TIME' => 1602485797
+    'argv' => []
+    'argc' => 0
+]
+2020-10-12 10:06:48 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/index in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#2 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-10-12 10:06:47 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'lab4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://lab4/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => 'c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\ext;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\wget\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\database\\MariaDB-10.3\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'lab4'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4/web/index.php'
+    'REMOTE_PORT' => '60305'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602486406.916
+    'REQUEST_TIME' => 1602486406
+    'argv' => []
+    'argc' => 0
+]
+2020-10-12 20:03:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/index in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4-23var\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4-23var\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4-23var\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#2 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4-23var\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4-23var\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4-23var\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4-23var\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\Lab4-23var\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-10-12 20:03:30 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'lab4-23var'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://lab4-23var/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => 'c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\ext;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\wget\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\database\\MariaDB-10.3\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'lab4-23var'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4-23var'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4-23var'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/Lab4-23var/web/index.php'
+    'REMOTE_PORT' => '62017'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602522209.946
+    'REQUEST_TIME' => 1602522209
+    'argv' => []
+    'argc' => 0
+]
+2020-10-12 20:10:54 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/index in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#2 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-10-12 20:10:52 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'rest23'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://rest23/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => 'c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\ext;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\wget\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\database\\MariaDB-10.3\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'rest23'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/rest23'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/rest23'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/rest23/web/index.php'
+    'REMOTE_PORT' => '62135'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602522651.56
+    'REQUEST_TIME' => 1602522651
+    'argv' => []
+    'argc' => 0
+]
+2020-10-12 20:11:51 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Unauthorized
+        user in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\controllers\SiteController.php:33
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#3 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2020-10-12 20:11:50 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '71504c9a-143c-4cda-a26f-c02ceca6b884'
+    'HTTP_HOST' => 'rest23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\ext;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\wget\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\database\\MariaDB-10.3\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'rest23'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/rest23'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/rest23'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/rest23/web/index.php'
+    'REMOTE_PORT' => '62137'
+    'REDIRECT_URL' => '/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/login'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602522710.286
+    'REQUEST_TIME' => 1602522710
+    'argv' => []
+    'argc' => 0
+]
+2020-10-12 20:13:26 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Unauthorized
+        user in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\controllers\SiteController.php:33
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#3 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2020-10-12 20:13:26 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '525fc54e-878b-4574-8fbd-e45cddf345c8'
+    'HTTP_HOST' => 'rest23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\ext;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\wget\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\database\\MariaDB-10.3\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'rest23'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/rest23'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/rest23'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/rest23/web/index.php'
+    'REMOTE_PORT' => '62137'
+    'REDIRECT_URL' => '/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/login'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602522806.534
+    'REQUEST_TIME' => 1602522806
+    'argv' => []
+    'argc' => 0
+]
+2020-10-12 20:14:07 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Unauthorized
+        user in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\controllers\SiteController.php:33
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#3 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\rest23\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2020-10-12 20:14:07 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'e1c8061d-2eb2-42dc-874d-f9ce3cbde70a'
+    'HTTP_HOST' => 'rest23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\ext;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\wget\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\database\\MariaDB-10.3\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'rest23'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/rest23'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/rest23'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/rest23/web/index.php'
+    'REMOTE_PORT' => '62137'
+    'REDIRECT_URL' => '/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/login'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602522847.865
+    'REQUEST_TIME' => 1602522847
+    'argv' => []
+    'argc' => 0
+]
+2020-10-12 20:18:47 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Unauthorized
+        user in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\controllers\SiteController.php:33
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#3 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2020-10-12 20:18:44 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '1a7c372e-e2b2-4749-a6d6-e183aea1ee6b'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\ext;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\wget\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\database\\MariaDB-10.3\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/localhost/rest23/web/index.php'
+    'REMOTE_PORT' => '62186'
+    'REDIRECT_URL' => '/rest23/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rest23/web/login'
+    'SCRIPT_NAME' => '/rest23/web/index.php'
+    'PHP_SELF' => '/rest23/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602523123.432
+    'REQUEST_TIME' => 1602523123
+    'argv' => []
+    'argc' => 0
+]
+2020-10-12 20:22:19 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Unauthorized
+        user in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\controllers\SiteController.php:33
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#3 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2020-10-12 20:22:19 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'd79d857b-ad4c-4ce0-aa62-8fbaf626bb8b'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\ext;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\wget\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\database\\MariaDB-10.3\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/localhost/rest23/web/index.php'
+    'REMOTE_PORT' => '62239'
+    'REDIRECT_URL' => '/rest23/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rest23/web/login'
+    'SCRIPT_NAME' => '/rest23/web/index.php'
+    'PHP_SELF' => '/rest23/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602523339.874
+    'REQUEST_TIME' => 1602523339
+    'argv' => []
+    'argc' => 0
+]
+2020-10-12 20:22:28 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Unauthorized
+        user in C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\controllers\SiteController.php:33
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#3 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\Users\nikit\Desktop\OpenServer\OpenServer\domains\localhost\rest23\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2020-10-12 20:22:28 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'e6732812-6882-4501-bda9-f8aa4d0c8d91'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\ext;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1\\pear\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\php\\PHP_7.1;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\wget\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\database\\MariaDB-10.3\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;c:\\users\\nikit\\desktop\\openserver\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/nikit/Desktop/OpenServer/OpenServer/domains/localhost/rest23/web/index.php'
+    'REMOTE_PORT' => '62239'
+    'REDIRECT_URL' => '/rest23/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rest23/web/login'
+    'SCRIPT_NAME' => '/rest23/web/index.php'
+    'PHP_SELF' => '/rest23/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602523348.427
+    'REQUEST_TIME' => 1602523348
+    'argv' => []
+    'argc' => 0
+]
